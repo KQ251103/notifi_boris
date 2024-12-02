@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root"; // Cambia esto si tienes usuario y contraseña configurados
 $password = "";
-$dbname = "notifications_db"; // Asegúrate de que la base de datos exista y tenga la tabla notifications
+$dbname = "notifi"; // Asegúrate de que la base de datos exista y tenga la tabla notifications
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
